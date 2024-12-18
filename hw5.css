@@ -1,0 +1,58 @@
+/*Made By: Shakib Tidjani - Contactable at: Shakib_Tidjani@student.uml.edu*/
+/*Sources: https://jqueryui.com/droppable/ - https://jqueryui.com/draggable/ - https://www.geeksforgeeks.org/jquery-ui-draggable-and-droppable-methods/ - class slides and exercises*/
+.draggable { 
+    width: 90px; 
+    height: 80px; 
+    padding: 5px; 
+    float: left; 
+    margin: 0 10px 10px 0; 
+    font-size: .9em; 
+}
+
+.ui-widget-header p,  p { 
+    margin: 0; 
+}
+
+#snaptarget { 
+    height: 140px; 
+}
+
+.board {
+    display:block;
+    width: 1172px;
+    height: 174px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: bold;
+}
+
+.draggable {
+    background-image:url('graphics_data(1)/graphics_data/Scrabble_Tiles/Scrabble_Tile_A.jpg');
+    width: 161px;
+    height: 174px;
+}
+
+#tiles {
+    background-image: url('graphics_data(1)/graphics_data/scrabble-tile-holder-406774_640.png');
+    background-repeat: no-repeat;
+    background-size: 1200px, 300px;
+    width: 1200px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#space {
+    width: 1200px;
+    height: 85px;
+}
+
+body {
+    text-align: center;
+    background-color: brown;
+}

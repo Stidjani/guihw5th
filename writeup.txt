@@ -1,0 +1,8 @@
+The program uses an array to represent the letters, their values, and their quantities.
+The array I use is one of the two provided data structures.
+When the site opens it creates a weighted array of letters with the proper quantities of each letter in it. 100 total are loaded into the bag at their appropriate quantities. Then a random 7 are are chosen and placed onto the tile rack for use.
+Once a tile is dragged onto a board space it snaps to the middle and updates the text for the word and the score with the appropriate quantity, doubling the letter score if placed on one of the two double letter scores.
+If a tile is taken off of the board the score is reduced and the letter is taken off of the word text. If the tile is not placed on another tile, or on the rack, it reverts back to its original position.
+The user can submit their word with the submit button which makes the score permanent and clears the board and word text. If the user exhausts all the letters in the bag, they are alerted with a win alert showing their score, and once they close the alert, the page restarts to allow for a new game.
+If the restart button is pressed, the page reloads.
+The program works as intended to my knowledge, however I was not able to implement a way to force the tiles to be placed from left to right. The program will accept any quanity and any placement of tiles so long as tiles are placed.
